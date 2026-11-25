@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0B1F3A">
+  <meta name="description" content="Explore Rohini Metals aluminium powder grades and technical specifications for AAC block, pyrotechnic and industrial applications.">
+  <title>Products & Specifications | Rohini Metals</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="app.css?v=3.3">
+  <script src="app.js?v=3.3" defer></script>
+</head>
+<body data-page="products">
+  <header id="site-header" class="site-header"></header>
+
+  <main id="main-content">
+    <!-- LARGE COLOURFUL PRODUCT HERO BANNER -->
+    <section class="page-hero">
+      <div class="wrap">
+        <span class="eyebrow">Technical Product Catalogue</span>
+        <h1>Aluminium powder, <span class="text-gradient-sunset">precisely specified.</span></h1>
+        <p>Explore nine certified powder grades developed for AAC block aeration, specialized pyrotechnic formulations, and atomised industrial metallurgy. Certified technical parameters for every grade.</p>
+      </div>
+    </section>
+
+    <!-- STICKY COLOURFUL CATEGORY SUBNAV -->
+    <nav class="product-subnav" aria-label="Product categories">
+      <a href="#aac">AAC Block Aluminium Powder</a>
+      <a href="#pyro">Pyrotechnic Aluminium Powder</a>
+      <a href="#industrial">Atomised Industrial Powder</a>
+    </nav>
+
+    <!-- PRODUCT CATALOGUE WITH DYNAMIC CATEGORY FILTER CHIPS -->
+    <section class="section section-ivory section-tight">
+      <div class="wrap">
+        <div class="filter-row" role="group" aria-label="Filter product categories">
+          <button class="filter-chip" type="button" data-filter="all" aria-pressed="true">All Grades</button>
+          <button class="filter-chip" type="button" data-filter="aac" aria-pressed="false">AAC Block Range</button>
+          <button class="filter-chip" type="button" data-filter="pyro" aria-pressed="false">Pyrotechnic Range</button>
+          <button class="filter-chip" type="button" data-filter="industrial" aria-pressed="false">Industrial Metallurgy</button>
+        </div>
+
+        <div id="product-catalog"></div>
+
+        <div class="note-box reveal">
+          <h4>Verified Technical Compliance</h4>
+          <p>All technical parameters listed above are reproduced directly from published factory batch analyses. For custom particle-size cuts, non-standard DEG solvent percentages, or batch certificates, please contact our technical sales desk.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FULL-WIDTH DYNAMIC CTA BANNER -->
+    <section class="cta-banner-wrap section-white">
+      <div class="wrap">
+        <div class="cta-banner reveal">
+          <div>
+            <span class="eyebrow">Direct Procurement</span>
+            <h2>Need a customized particle distribution?</h2>
+            <p>Our Virudhunagar plant can discuss tailored sieve mesh cuts, special packaging, and direct factory container dispatch.</p>
+          </div>
+          <a class="button" href="contact.html">Request Product Quote <span class="button-arrow" aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ENHANCED SPECIFICATION POPUP DIALOG -->
+    <dialog class="spec-dialog" id="spec-dialog" aria-labelledby="dialog-title">
+      <div class="dialog-head">
+        <div class="dialog-content"></div>
+        <button class="dialog-close" type="button" aria-label="Close specifications">×</button>
+      </div>
+      <div class="dialog-body">
+        <p>Technical values are reproduced from published manufacturing data. For quotes, batch certificates, or custom particle specifications, contact our team.</p>
+        <a class="button" href="contact.html">Make an enquiry <span class="button-arrow" aria-hidden="true">→</span></a>
+      </div>
+    </dialog>
+  </main>
+
+  <footer id="site-footer" class="site-footer"></footer>
+  <button class="back-top" type="button" aria-label="Back to top">↑</button>
+</body>
+</html>
